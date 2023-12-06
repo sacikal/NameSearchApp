@@ -22,7 +22,7 @@ export default {
   methods: {
     async handleSearch() {
       try {
-        const response = await fetch(`https://localhost:7213/api/search?term=${this.searchTerm}`);
+        const response = await fetch(`https://localhost:5000/api/search?term=${this.searchTerm}`);
         const data = await response.json();
         this.searchResults = data;
 
