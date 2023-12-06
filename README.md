@@ -18,7 +18,7 @@ This repository contains the backend (NameSearch) and frontend (search-frontend-
    ```bash
    dotnet run
    
-4. The backend server will be running at http://localhost:5000.
+4. The backend server will be running at https://localhost:5000.
 
 
 ## search-frontend-vue (Frontend)
